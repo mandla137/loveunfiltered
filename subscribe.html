@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*subcribe to platforms you like*/
+        .platforms-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: #2a0045; /* Slightly lighter purple for contrast */
+            padding: 20px 0;
+        }
+        
+        .platform {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .platform img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 8px;
+        }
+        
+        .platform span {
+            font-size: 14px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #e91e63; /* Pink button */
+            color: #ffffff;
+            border: none;
+            border-radius: 50%;
+        
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        
+        .floating-button:hover {
+            background-color: #d81b60; /* Slightly darker pink on hover */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!--header-->
+    
+<div class="nav-toggle">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</div>
+    <header class="header">
+        <div class="nav container">  
+          <ul class="menu-items">
+            <li><a href="index.html" class="home">Home</a></li> 
+            <li><a href="about.html" class="about">About</a></li> 
+            <li><a href="episodes.html" class="Episodes">Episodes</a></li>
+            <li><a href="contact.html" class="Episodes">Contact Us</a></li>
+            <li><a href="subscribe.html" class="Episodes">Subscribe</a></li>
+          </ul>
+          <h1 class="logo">DateTalk<span>Diaries</span></h1>
+        </div>
+    </header> 
+    <!---main-->
+    <main>
+        <div class="content-left">
+          <h2> <span>Welcome to DateTalk Diaries: Navigating the Shadows of Cheating ❤️</span></h2>
+          <p><b>
+            Explore the intricacies of infidelity, uncover the reasons behind it, and find healing through 
+            candid discussions and expert advice. Whether you’re seeking understanding, support, or a path 
+            to recovery, this is the space to explore the raw truths of relationships.
+            
+            Join us on this journey to shed light on the hidden aspects of love and build stronger, more 
+            resilient connections. Start listening today and take the first step towards clarity and healing. 🎙️💔
+           
+          </b>
+            </p><br><br>
+            <button class="cta">explore more</button>
+        </div>
+        <div class="content-right">
+            <img src="images/" alt="" class="hero-img">
+        </div>
+    </main><br><br>
+    <!--SECTION HEADER-->
+    <header class="section-header">
+      <p class="subtitle">Subscribe & Listen</p>
+      <h1 class="title">Subscribe Using Your favorite platform</h1>
+  </header>
+   <br><br>
+    <!--Subscribe-->
+    <div class="platforms-section">
+        <div class="platform">
+          <img src="images/icons8-google-48.png" alt="Google Podcasts">
+          <span>Google Podcasts</span>
+        </div>
+        <div class="platform">
+          <img src="images/apple-podcast.256x256.png" alt="Apple Podcasts">
+          <span>Apple Podcasts</span>
+        </div>
+        <div class="platform">
+          <img src="images/spotify.256x256.png" alt="Spotify">
+          <span>Spotify</span>
+        </div>
+        <div class="platform">
+          <img src="images/facebook.256x256.png" alt="facebook">
+          <span>facebook</span>
+        </div>
+      </div>
+      <button class="floating-button">▲</button>
+      <br><br>
+    <div class="footer"> &copy; 2024 DateTalk Diaries. Designed by Malefa Mathejane. </div> 
+    <script src="script.js"></script> 
+  </body>
+</html>

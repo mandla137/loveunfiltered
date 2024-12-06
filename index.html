@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*Section styling*/
+        .subscribe-section {
+            background-image: url('images/img.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 80px 0;
+            color: #fff;
+        }
+        
+        .container2 {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        
+        .subscribe-title {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .subscribe-description {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        
+        .subscribe-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: #007bff;
+            color: #fff;
+        }
+        
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        /*subcribe to platforms you like*/
+        .platforms-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: #413f47; /* Slightly lighter purple for contrast */
+            padding: 20px 0;
+        }
+        
+        .platform {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .platform img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 8px;
+        }
+        
+        .platform span {
+            font-size: 14px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #e91e63; /* Pink button */
+            color: #ffffff;
+            border: none;
+            border-radius: 50%;
+        
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        
+        .floating-button:hover {
+            background-color: #a7a0a2; /* Slightly darker pink on hover */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!--header-->
+    
+<div class="nav-toggle">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</div>
+    <header class="header">
+        <div class="nav container">  
+          <ul class="menu-items">
+            <li><a href="index.html" class="home">Home</a></li> 
+            <li><a href="about.html" class="about">About</a></li> 
+            <li><a href="episodes.html" class="episodes">Episodes</a></li>
+            <li><a href="contact.html" class="episodes">Contact Us</a></li>
+            <li><a href="subscribe.html" class="subscribe">Subscribe</a></li>
+          </ul>
+          <h1 class="logo">DateTalk<span>Diaries</span></h1>
+        </div>
+    </header> 
+    <!---main-->
+    <main>
+        <div class="content-left">
+            <h2> <span>Welcome to DateTalk Diaries: Navigating the Shadows of Cheating ❤️</span></h2>
+            <p><b>
+              Explore the intricacies of infidelity, uncover the reasons behind it, and find healing through 
+              candid discussions and expert advice. Whether you’re seeking understanding, support, or a path 
+              to recovery, this is the space to explore the raw truths of relationships.
+              
+              Join us on this journey to shed light on the hidden aspects of love and build stronger, more 
+              resilient connections. Start listening today and take the first step towards clarity and healing. 🎙️💔
+             
+            </b>
+            </p><br><br>
+            <button class="cta">explore more</button>
+        </div>
+        <div class="content-right">
+            <img src="images/" alt="" class="hero-img">
+        </div>
+    </main><br><br>
+    <!--SECTION HEADER-->
+    <header class="section-header">
+        <p class="subtitle">Subscribe & Listen</p>
+        <h1 class="title">Popular Episodes</h1>
+    </header>
+    <!--Podcast cards-->
+    <div class="podcast-container">
+        <!-- Podcast Card 1 -->
+        <div class="podcast-card">
+          <div class="image-container">
+            <img src="images/img.jpg" alt="Podcast 45">
+            <div class="overlay">
+              <span class="badge">SEASON 1 / EP #1</span>
+            </div>
+          </div>
+          <div class="podcast-info">
+            <p class="date">November 06, 2024</p>
+            
+            <h3>Episode 1: Unmasking the Signs of Cheating</h3>
+            <p class="description">Delve into the subtle and overt signs that may indicate a partner's infidelity. From changes in behavior to hidden messages, learn how to identify potential red flags.</p>
+          </div>
+          <div class="media-container">
+            <!-- Audio Player -->
+            <audio controls>
+              <source src="images/audio1.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      
+        <!-- Podcast Card 2 -->
+        <div class="podcast-card">
+          <div class="image-container">
+            <img src="images/img.jpg" alt="Podcast 44">
+            <div class="overlay">
+              <span class="badge">SEASON 1 / EP #2</span>
+            </div>
+          </div>
+          <div class="podcast-info">
+            <p class="date">November 08, 2024</p>
+            
+            <h3>Episode 2: The Psychology Behind Cheating</h3>
+            <p class="description">Explore the psychological factors that drive individuals to cheat. Understand the underlying motives, from emotional dissatisfaction to thrill-seeking behaviors, and what it means for relationships.</p>
+          </div>
+          <div class="media-container">
+            <!-- Video Player -->
+            <video controls width="100%">
+              <source src="images/video1.mp4" type="video/mp4">
+              Your browser does not support the video element.
+            </video>
+          </div>
+        </div>
+      
+        <!-- Podcast Card 3 -->
+        <div class="podcast-card">
+          <div class="image-container">
+            <img src="images/img.jpg" alt="Podcast 43">
+            <div class="overlay">
+              <span class="badge">SEASON 1 / EP #3</span>
+            </div>
+          </div>
+          <div class="podcast-info">
+            <p class="date">November 19, 2024</p>
+            
+            <h3>Episode 3: Healing After Betrayal</h3>
+            <p class="description">Discover the journey to healing after experiencing infidelity. This episode covers coping mechanisms, rebuilding trust, and the steps to take for both individuals and couples to move forward.</p>
+          </div>
+          <div class="media-container">
+            <!-- Audio Player -->
+            <audio controls>
+              <source src="images/audio2.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+
+        <div class="podcast-card">
+            <div class="image-container">
+              <img src="images/img.jpg" alt="Podcast 44">
+              <div class="overlay">
+                <span class="badge">SEASON 1 / EP #4</span>
+              </div>
+            </div>
+            <div class="podcast-info">
+              <p class="date">December 01, 2024</p>
+              
+              <h3>Episode 4: Prevention and Communication</h3>
+              <p class="description">Learn about proactive strategies to prevent infidelity through effective communication and relationship building. This episode focuses on fostering open dialogue, setting boundaries, and maintaining a healthy relationship.</p>
+            </div>
+            <div class="media-container">
+              <!-- Video Player -->
+              <video controls width="100%">
+                <source src="images/video2.mp4" type="video/mp4">
+                Your browser does not support the video element.
+              </video>
+            </div>
+        </div>
+    </div>
+    
+     
+           
+    <!--Section-->
+    <section class="subscribe-section">
+        <div class="container2">
+          <h1 class="subscribe-title">Subscribe & Listen</h1>
+          <p class="subscribe-description">Join our newsletter today and get access to special episodes. Follow our podcast on your favorite platform to get even more updates.</p>
+          <div class="subscribe-buttons">
+            <a href="#" class="btn btn-primary">Contact Us</a>
+            <a href="subscribe.html" class="btn btn-secondary">Subscribe Now</a>
+          </div>
+        </div>
+    </section><br><br>
+     
+    <!--Subscribe-->
+    <div class="platforms-section">
+      <div class="platform">
+        <img src="images/icons8-google-48.png" alt="Google Podcasts">
+        <span>Google Podcasts</span>
+      </div>
+      <div class="platform">
+        <img src="images/apple-podcast.256x256.png" alt="Apple Podcasts">
+        <span>Apple Podcasts</span>
+      </div>
+      <div class="platform">
+        <img src="images/spotify.256x256.png" alt="Spotify">
+        <span>Spotify</span>
+      </div>
+      <div class="platform">
+        <img src="images/facebook.256x256.png" alt="facebook">
+        <span>facebook</span>
+      </div>
+    </div><br><br>
+    <div class="footer"> &copy; 2024 DateTalk Diaries. Designed by Malefa Mathejane. </div> 
+    
+    <!--Javascript-->
+    <script src="script.js"></script> 
+</body>
+</html>
